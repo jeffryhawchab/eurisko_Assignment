@@ -59,7 +59,6 @@ Implements a simple task manager with functions to add, complete, and display ta
    ```
 
 ## Notes
-- This project is written in TypeScript for type safety.
 - Each challenge solution is stored in a separate file.
 - Solutions are optimized for readability and performance.
 
