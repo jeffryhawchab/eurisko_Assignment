@@ -19,15 +19,15 @@ function deepEqual(obj1, obj2) {
     }
 
 
-    
+
     return true;
 }
 
 // Test cases
 console.log(deepEqual({ a: 1, b: { c: 2 } }, { a: 1, b: { c: 2 } }));
-console.log(deepEqual({ a: 1, b: { c: 2 } }, { a: 1, b: { c: 3 } })); 
-console.log(deepEqual({ a: 1, b: { c: 2, d: { e: 3 } } }, { a: 1, b: { c: 2, d: { e: 3 } } })); 
+console.log(deepEqual({ a: 1, b: { c: 2 } }, { a: 1, b: { c: 3 } }));
+console.log(deepEqual({ a: 1, b: { c: 2, d: { e: 3 } } }, { a: 1, b: { c: 2, d: { e: 3 } } }));
 console.log(deepEqual({ a: 1, b: { c: 2 } }, { a: 1, b: { c: 2, d: 3 } }));
-console.log(deepEqual({ a: 1 }, { a: 1, b: 2 })); 
+console.log(deepEqual({ a: 1 }, { a: 1, b: 2 }));
 console.log(deepEqual(5, 5));
 console.log(deepEqual(5, "5"));
