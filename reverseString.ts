@@ -1,6 +1,6 @@
-function ReverseString(str: string): string {
+function reverseString(str: string): string {
     return str.split("").reverse().join("");
 }
 
-console.log(ReverseString("Hello World")); // Output: dlroW olleH
-console.log(ReverseString("JavaScript")); // Output: tpircSavaJ
+console.log(reverseString("jeffrey")); // Output: dlroW olleH
+console.log(reverseString("hawchab")); // Output: tpircSavaJ
